@@ -1,0 +1,89 @@
+
+/*TAG SELECTORS*/
+body {
+    margin: 1.0rem 1.0rem 1.0rem 1.0rem;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+}
+h1 {
+    font-size: 9.0rem;
+    font-family: 'Handlee',sans-serif;
+    margin: 0;
+    margin: 0 auto 0 auto;
+}
+h2,h3 {
+    margin: 0;
+    margin: 0 auto 0 auto;
+}
+h1, h2, h3 {
+    color: #66BFBF;
+}
+p {
+    margin: 0;
+}
+hr {
+    border-style: none;
+    border-top-style: dashed;
+    border-color: #FFC93C;
+    border-width: 5px;
+    height: 0rem;
+    width: 5rem;
+}
+img {
+    background-color: transparent;
+    width: 5.0rem;
+    height: 1.0rem;
+    border-radius: 0.3rem;
+}
+
+/*CLASS SELECTORS*/
+.code{
+    font-family: 'Courier New', Courier, monospace;
+}
+.img-round-icon-profile {
+    background-size: cover;
+    background-color: transparent;
+    width: 7.0rem;
+    height: 7.0rem;
+    border-radius: 3.5rem;
+}
+.img-round-icon-misc {
+    background-size: cover;
+    background-color: transparent;
+    width: 5.0rem;
+    height: 5.0rem;
+    border-radius: 2.5rem;
+}
+.companyImg {
+    background-color: transparent;
+    width: 5.0rem;
+    height: 1.0rem;
+    border-radius: 0.3rem;
+}
+.cursorImg {
+    background-color: transparent;
+    height: 0.8rem;
+    width: 0.8rem;
+    margin-left: -0.5rem;
+    margin-bottom: -0.1rem;
+}
+
+/*padding does not affect the background image*/
+.top-container {
+    height: 20.0rem;
+    padding: 2.0rem;
+    background-color: #CDF4FF;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+/*ID SELECTOR*/
+#elementId {
+    background-color: transparent;
+}
