@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========== GOOGLE FONTS ========== -->
+    <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com">
+    <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+
+    <!-- ========== STYLESHEETS ========== -->
+    <link
+            rel="stylesheet"
+            href="assets/css/styles.css">
+
+    <!-- ========== IMAGES/ICONS ========== -->
+    <link
+            rel="icon" type="image/png" sizes="32x32"
+            href="assets/images/icons/favicon.png"
+    />
+
+    <!-- ========== ANIMATE CDN ========== -->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <title>SABAREVASAN</title>
+  </head>
+
+  <body>
+
+  <video autoplay muted loop id="myVideo">
+    <source src="/assets/videos/file.mp4" type="video/mp4">
+  </video>
+
+  <!-- ========== NAVBAR ========== -->
+    <nav class="">
+      <h1>SABAREVASAN.S</h1>
+
+      <ul class="navigation">
+        <li>
+          <a class="nav-link" href="#">HOME</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#about">ABOUT</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#skills">SKILLS</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </li>
+      </ul>
+
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="about">
+      <img
+              src="assets/images/profile.png"
+              alt="working"
+              loading="lazy"
+              class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">ABOUT ME</h2>
+        <p class="bio-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
+          dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
+          inventore tempore minus nemo, iste ullam illo laboriosam maiores
+          repudiandae quos!
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== MORE ABOUT SECTION ========== -->
+    <section class="introduction">
+      <h2>MORE ABOUT ME</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+        autem deleniti cupiditate molestias quis unde quae totam porro dicta
+        iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+        nostrum dolor minus, libero delectus praesentium perferendis
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+        consequuntur labore? Ea totam voluptas amet!
+      </p>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">MY TOP SKILLS</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+                  src="assets/images/icons/icons8-html-5.svg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+          />
+          <img
+                  src="assets/images/icons/icons8-css3.svg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+          />
+          <img
+                  src="assets/images/icons/icons8-javascript.svg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+                  src="assets/images/icons/icons8-bootstrap.svg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+          />
+          <img
+                  src="assets/images/icons/icons8-react-native.svg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+          />
+          <img
+                  src="assets/images/icons/icons8-git.svg"
+                  alt=""
+                  loading="lazy"
+                  class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section class="projects" id="portfolio">
+      <h2 class="projects-title">MY RECENT PROJECTS</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+                  src="assets/images/expenseTracker.png"
+                  alt="That project 1"
+                  loading="lazy"
+                  class="project-pic"
+          />
+          <h3 class="project-title">That project 1</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+                  src="assets/images/netflixClone.png"
+                  alt="This project 2"
+                  loading="lazy"
+                  class="project-pic"
+          />
+          <h3 class="project-title">This project 2</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+                  src="assets/images/greenyEarth.png"
+                  alt="greeny-earth"
+                  loading="lazy"
+                  class="project-pic"
+          />
+          <h3 class="project-title">Greeny Earth</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact" id="contact">
+      <h2>GET IN TOUCH</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/manqrnjl"
+                method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                      type="text"
+                      id="name"
+                      name="sender-name"
+                      placeholder="Your Name"
+                      class="input-field"
+                      required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                      type="email"
+                      id="email"
+                      name="sender-email"
+                      placeholder="Your Email"
+                      class="input-field"
+                      required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                      id="message"
+                      cols="60"
+                      rows="10"
+                      placeholder="Your Message"
+                      name="message"
+                      class="input-field"
+                      style="resize: none;"
+                      required
+              ></textarea>
+            </div>
+            <input
+                    type="submit"
+                    value="SEND"
+                    id="submit-btn"
+                    class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+      <!-- ========== SCROLL TO TOP ========== -->
+      <i class="scroll-up" id="scroll-up"
+      ><img
+              src="assets/images/icons/icons8-upward-arrow.gif"
+              class="socicon up-arrow"
+              alt=""
+      /></i>
+
+      <!-- ========== FOOTER SECTION ========== -->
+      <footer>
+        <p class="copy">&copy; Copyright 2025
+          by
+          Sabarevasan Subbrahmanian
+        </p>
+      </footer>
+
+    <!-- ========== WEBSITE SCRIPTS ========== -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- ========== ION ICONS ========== -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+
+
+</html>
