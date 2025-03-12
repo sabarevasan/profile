@@ -1,0 +1,111 @@
+*{
+    --all-background-color: #390050;
+    --playarea-background-color: #cdcdff;
+    --playarea-shape-border-color: #d1d1d5;
+    --display-text-color: #7bf603;
+}
+
+.container {
+    display: flex;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--all-background-color);
+    color: var(--playarea-background-color);
+}
+
+.display-area {
+    padding-left: 2.0rem;
+}
+
+h1 {
+    letter-spacing: 1.0rem;
+    padding-top: 1.0rem;
+    padding-bottom: 2.0rem;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--playarea-background-color);
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.mini-grid {
+    margin-left: 75px;
+    padding: 1.0rem;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--all-background-color);
+}
+
+.mini-grid div {
+    width: 20px;
+    height: 20px;
+
+}
+
+.shape {
+    outline:1px solid var(--playarea-shape-border-color);
+    background-color: blue;
+    border-radius: 0.1rem;
+    opacity: 0.75;
+}
+
+.taken {
+    background-color: #390050;
+}
+
+.game-button {
+    align-items: center;
+    appearance: none;
+    background-color: var(--all-background-color);
+    background-image: linear-gradient(1deg, rgba(202, 113, 232, 0.8), rgba(250, 143, 143, 0.8) 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: var(--display-text-color);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd,sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s,background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.game-button:active,
+.game-button:focus {
+    outline: none;
+}
+
+.game-button:hover {
+    background-position: -20px -20px;
+}
+
+.game-button:focus:not(:active) {
+    box-shadow: rgb(108, 0, 162) 0 0 0 .125em;
+}
