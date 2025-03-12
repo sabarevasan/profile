@@ -109,3 +109,7 @@ h1 {
 .game-button:focus:not(:active) {
     box-shadow: rgb(108, 0, 162) 0 0 0 .125em;
 }
+
+.use-keys-pic {
+    width: 50%;
+}
